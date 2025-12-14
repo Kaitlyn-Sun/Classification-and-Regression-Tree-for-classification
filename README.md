@@ -14,7 +14,7 @@ under identical experimental settings.
 
 We evaluate our CART implementation on two public benchmark datasets:
 
-- **Iris dataset**
+- **Breast Cancer dataset**
 - **Wine dataset**
 
 For each dataset, our implementation is compared with scikit-learn’s
@@ -58,14 +58,9 @@ without additional package installation.
 
 ## Running the Experiments
 
-All experiments are implemented in a single script located in the `src/`
-directory.
+All experiments are implemented in a single Jupyter Notebook (CART.ipynb) located in the src/ directory.
 
-To reproduce the experimental results, run:
-
-```bash
-python src/CART.py
-```
+The experimental results can be reproduced by executing all cells in the notebook.
 
 ---
 
@@ -73,7 +68,7 @@ python src/CART.py
 
 This project uses public benchmark datasets provided by scikit-learn.
 
-- **Iris dataset**: loaded via `sklearn.datasets.load_iris`
+- **Iris dataset**: loaded via `sklearn.datasets.load_breast_cancer`
 - **Wine dataset**: loaded via `sklearn.datasets.load_wine`
 
 No external data files are required.
